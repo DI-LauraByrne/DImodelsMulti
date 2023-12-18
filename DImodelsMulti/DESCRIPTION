@@ -1,0 +1,25 @@
+Package: DImodelsMulti
+Type: Package
+Title: Fit Multivariate DI Models with Repeated Measures
+Version: 0.1.7
+Authors@R: c(person("Laura", "Byrne", email="ByrneL54@tcd.ie", role=c("aut", "cre")), person("Rishabh", "Vishwakarma", email="VishwakR@tcd.ie", role=c("aut")), person("Rafael", "de Andrade Moral", email="Rafael.DeAndradeMoral@mu.ie", role=c("aut")), person("Caroline", "Brophy", email="Caroline.Brophy@tcd.ie", role=c("aut"))) 
+Maintainer: Laura Byrne <byrnel54@tcd.ie>
+Description: An add-on package to 'DImodels' for the fitting of data with multiple ecosystem function responses and/or time points.
+License: GPL-3
+Encoding: UTF-8
+URL: https://dimodels.com
+LazyData: true
+Imports: 
+    DImodels,
+    plyr,
+    dplyr,
+    nlme,
+    stats,
+    reshape2,
+    crayon,
+    knitr,
+    Matrix,
+    cli
+Depends: 
+    R (>= 3.6.0)
+RoxygenNote: 7.2.3
