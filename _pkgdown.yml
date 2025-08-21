@@ -2,3 +2,11 @@ url: https://di-laurabyrne.github.io/DImodelsMulti/
 template:
   bootstrap: 5
 
+articles:
+  - title: Vignettes
+    navbar: ~
+    contents:
+    - DImulti_workflow
+    - DImulti_onTheta
+    - DImulti_prediction
+    - DImulti_commonErrors
