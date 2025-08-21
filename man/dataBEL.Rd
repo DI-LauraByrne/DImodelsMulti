@@ -6,7 +6,7 @@ The Belgium dataset
 }
 \description{
 Single site dataset containing thirty experimental units (plots), with four species seeded at two density levels, representing fifteen communities. Three ecosystem function responses are recorded
-for each plot at a single time point. Data is in a stacked format
+for each plot at a single time point. Data is in a stacked format.
 }
 \usage{data("dataBEL")}
 \format{
@@ -24,7 +24,7 @@ for each plot at a single time point. Data is in a stacked format
   }
 }
 \details{
-Data comes from a single site from a wider agrosdiversity experiment conducted in Belgium,
+Data comes from a single site from a wider agrodiversity experiment conducted in Belgium,
 established in 2002. \cr
 The four species used were Lolium perenne (G1), Phleum pratense (G2), Trifolium pratense (L1), and
 Trifolium repens (L2). There are two recommended functional groupings: grouping grasses (G1, G2) and
@@ -41,7 +41,10 @@ Testing the effects of diversity on ecosystem multifunctionality using a multiva
 Ecology Letters, 18(11), pp.1242-1251. \cr
 
 Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins,
-R.P., Cop, J., Delgado, I. and De Vliegher, A., 2014. \cr
+R.P., Cop, J., Delgado, I.,  De Vliegher, A., Elgersma A., Frankow-Lindberg, B., Golinski, P.,
+Grieu, P., Gustavsson, A.M., Helgadóttir, Á., Höglind, M., Huguenin-Elie, O., Jørgensen, M.,
+Kadžiulienė, Ž., Lunnan, T., Lüscher, A., Kurki, P., Porqueddu, C., Sebastia, M.-T., Thumm, U.,
+Walmsley, D., and Finn, J., 2014. \cr
 The Agrodiversity Experiment: three years of data from a multisite study in intensively managed
 grasslands. \cr
 }
@@ -51,12 +54,18 @@ Testing the effects of diversity on ecosystem multifunctionality using a multiva
 Ecology Letters, 18(11), pp.1242-1251. \cr
 
 Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins,
-R.P., Cop, J., Delgado, I. and De Vliegher, A., 2014. \cr
+R.P., Cop, J., Delgado, I.,  De Vliegher, A., Elgersma A., Frankow-Lindberg, B., Golinski, P.,
+Grieu, P., Gustavsson, A.M., Helgadóttir, Á., Höglind, M., Huguenin-Elie, O., Jørgensen, M.,
+Kadžiulienė, Ž., Lunnan, T., Lüscher, A., Kurki, P., Porqueddu, C., Sebastia, M.-T., Thumm, U.,
+Walmsley, D., and Finn, J., 2014. \cr
 The Agrodiversity Experiment: three years of data from a multisite study in intensively managed
 grasslands. \cr
 
 Finn, J.A., Kirwan, L., Connolly, J., Sebastia, M.T., Helgadottir, A., Baadshaug, O.H.,
-Belanger, G., Black, A., Brophy, C., Collins, R.P. and Cop, J., 2013. \cr
+Belanger, G., Black, A., Brophy, C., Collins, R.P., Cop, J., Dalmannsdóttir, S., Delgado, I.,
+Elgersma, A., Fothergill, M., Frankow-Lindberg, B.E., Ghesquiere, A., Golinska, B., Golinski, P.,
+Grieu, P., Gustavsson, A.M., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziuliene, Z.,
+Kurki, P., Llurba, R., Lunnan, T., Porqueddu, C., Suter, M., Thumm, U., and Lüscher, A., 2013. \cr
 Ecosystem function enhanced by combining four functional types of plant species in intensively
 managed grassland mixtures: a 3-year continental-scale field experiment.\cr
 Journal of Applied Ecology, 50(2), pp.365-375 .\cr
