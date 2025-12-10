@@ -9,7 +9,7 @@ functions and/or multiple time points"></head><body>
 
     <a class="navbar-brand me-2" href="../index.html">DImodelsMulti</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.2.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@ functions and/or multiple time points"></head><body>
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>DImulti</h1>
-      <small class="dont-index">Source: <a href="https://github.com/DI-LauraByrne/DImodelsMulti/blob/v1.2.0/R/DImulti_fit.R" class="external-link"><code>R/DImulti_fit.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/DI-LauraByrne/DImodelsMulti/blob/master/R/DImulti_fit.R" class="external-link"><code>R/DImulti_fit.R</code></a></small>
       <div class="d-none name"><code>DImulti.Rd</code></div>
     </div>
 
@@ -211,7 +211,10 @@ For each experimental unit included there must be recordings of either: <br>
 - multiple community level ecosystem function responses taken at multiple time points
 (multivariate repeated measures). <br>
 Ecosystem functions may be stored in a long or wide format while repeated measures must be stored
-in a long format. <br></p>
+in a long format. <br>
+Additionally, by calling the function DImultiApp(), you can interact with the
+provided R Shiny app, which aids in fitting and visualising multivariate or
+repeated measures models through a user-friendly interface. <br></p>
 <p><strong>Introduction to multivariate &amp; repeated measures Diversity-Interactions models</strong> <br></p>
 <p>Diversity-Interactions (DI) models are a regression based approach to modelling the biodiversity
 ecosystem function (BEF) relationship
@@ -334,7 +337,8 @@ SIAM Journal on Numerical Analysis, 10(2), pp.327-344. <br></p>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
     <div class="dont-index"><p>This package:
-   <code>DImulti</code> <br>
+   <code>DImulti</code>,
+   <code><a href="DImultiApp.html">DImultiApp</a></code> <br>
    Example datasets:
    <code><a href="dataBEL.html">dataBEL</a></code>,
    <code><a href="dataSWE.html">dataSWE</a></code>,
@@ -1002,7 +1006,7 @@ Maintainer: Laura Byrne <a href="mailto:byrnel54@tcd.ie">byrnel54@tcd.ie</a></p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer></div>

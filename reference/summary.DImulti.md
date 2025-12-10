@@ -1,0 +1,57 @@
+# summary.DImulti
+
+Print a summary of the fitted DI models supplied
+
+## Usage
+
+``` r
+# S3 method for class 'DImulti'
+summary(object, verbose = FALSE, ...)
+```
+
+## Arguments
+
+- object:
+
+  an object inheriting from class DImulti, representing a generalized
+  least squared fitted linear model using the Diversity-Interactions
+  framework
+
+- verbose:
+
+  an optional logical value used to control the amount of output when
+  the object is printed. Defaults to FALSE.
+
+- ...:
+
+  some methods for this generic function require additional arguments.
+  None are used in this method.
+
+## Value
+
+an object inheriting from class summary.gls with all components included
+in object (see glsObject for a full description of the components) plus
+the following components:
+
+corBeta, approximate correlation matrix for the coefficients estimates
+
+tTable, a matrix with columns Value, Std. Error, t-value, and p-value
+representing respectively the coefficients estimates, their approximate
+standard errors, the ratios between the estimates and their standard
+errors, and the associated p-value under a t approximation. Rows
+correspond to the different coefficients.
+
+residuals, if more than five observations are used in the gls fit, a
+vector with the minimum, first quartile, median, third quartile, and
+maximum of the residuals distribution; else the residuals.
+
+AIC, the Akaike Information Criterion corresponding to object.
+
+BIC, the Bayesian Information Criterion corresponding to object.
+
+theta, the values of the non-linear parameter theta used in the model
+
+## See also
+
+[`summary.gls`](https://rdrr.io/pkg/nlme/man/summary.gls.html) which
+this function wraps.

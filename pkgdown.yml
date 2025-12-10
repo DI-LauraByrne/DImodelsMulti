@@ -1,12 +1,12 @@
 pandoc: 3.1.11
-pkgdown: 2.1.3
+pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   DImulti_commonErrors: DImulti_commonErrors.html
   DImulti_onTheta: DImulti_onTheta.html
   DImulti_prediction: DImulti_prediction.html
   DImulti_workflow: DImulti_workflow.html
-last_built: 2025-08-21T15:04Z
+last_built: 2025-12-10T08:41Z
 urls:
   reference: https://di-laurabyrne.github.io/DImodelsMulti/reference
   article: https://di-laurabyrne.github.io/DImodelsMulti/articles
