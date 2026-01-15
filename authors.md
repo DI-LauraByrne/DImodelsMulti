@@ -14,16 +14,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/DI-LauraByrne/DImodelsMulti/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/DI-LauraByrne/DImodelsMulti/blob/v1.2.1/DESCRIPTION)
 
-Byrne L, Vishwakarma R, de Andrade Moral R, Brophy C (2025).
+Byrne L, Vishwakarma R, de Andrade Moral R, Brophy C (2026).
 *DImodelsMulti: Fit Multivariate Diversity-Interactions Models with
 Repeated Measures*. R package version 1.2.1, <https://dimodels.com>.
 
     @Manual{,
       title = {DImodelsMulti: Fit Multivariate Diversity-Interactions Models with Repeated Measures},
       author = {Laura Byrne and Rishabh Vishwakarma and Rafael {de Andrade Moral} and Caroline Brophy},
-      year = {2025},
+      year = {2026},
       note = {R package version 1.2.1},
       url = {https://dimodels.com},
     }
